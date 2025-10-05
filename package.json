@@ -1,0 +1,19 @@
+{
+    "name": "coder-backend3-entrega1",
+    "version": "1.0.1",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js"
+    },
+    "dependencies": {
+        "@faker-js/faker": "^9.0.0",
+        "bcrypt": "^5.1.1",
+        "express": "^4.19.2",
+        "mongoose": "^8.5.0",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
